@@ -47,7 +47,7 @@ class CommandCopy(Command):
 
         for attr in source_event.attributes:
             dest_event.attributes.add(attr)
-        dest_event.objects.set(source_event.objects)
+        #dest_event.objects.set(source_event.objects)
 
         try:
             dest_server.events.update(dest_event)

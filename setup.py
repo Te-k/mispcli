@@ -11,6 +11,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'mispy',
+        'scapy'
         ],
     python_requires='>=3.5',
     license='GPLv3',
